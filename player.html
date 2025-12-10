@@ -1,31 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Reproductor</title>
+  <meta charset="UTF-8">
+  <title>Music Player</title>
 </head>
+<body>
 
-<body style="margin:0; padding:0; text-align:center;">
-
-<audio id="player">
-  <source src="(211) OneShot OST - On Little Cat Feet - YouTube - Google Chrome 2025-12-09 16-16-20 (1).mp3" type="audio/mpeg">
-</audio>
-
-<button 
-    onclick="document.getElementById('player').play();"
-    style="
-        background-color:#f54242;
-        color:white;
-        border:none;
-        padding:20px 40px;
-        font-size:24px;
-        border-radius:12px;
-        cursor:pointer;
-        font-weight:bold;
-        margin-top:40px;
-    ">
-    ▶ Reproducir Música
-</button>
+  <audio id="player" controls autoplay>
+    <source src="(211) OneShot OST - On Little Cat Feet - YouTube - Google Chrome 2025-12-09 16-16-20 (1).mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
 
 </body>
 </html>
